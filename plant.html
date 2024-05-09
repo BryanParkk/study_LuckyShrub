@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Shrub</title>
+    <meta name="description" content="Lucky Shrub, a garden design and plant wholesale company based in Tucson, Arizona.">
+    <meta name="author" content="Jason and Maria">
+    
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top_banner">
+            Make your own garden today! <em><u>Detail information</u></em>
+        </div>
+    </header>
+    <nav class="navbar_top">
+        <div class="navbar_logo">
+            <img src="img/top_logo.png" alt="Lucky Shrub">
+        </div>
+        <div class="navbar_info1">
+            <div class="navbar_info_sub">Find your</div>
+            <div class="navbar_info_sub">Favorite Plant</div>
+        </div>
+        <div class="navbar_info2">
+            <div class="navbar_info_sub">Store Locate</div>
+            <div class="navbar_info_sub">Near You</div>
+        </div>
+        <div class="navbar_info3">
+            <div class="navbar_info_sub">Sign up</div>
+            <div class="navbar_info_sub">Today</div>
+        </div>
+    </nav>
+    <nav class="navbar">
+        <ul class="navbar_menu">
+            <li><a class="navbar_home" href="index.html">Home</a></li>
+            <li><a class="navbar_plant" href="plant.html">Plant</a></li>
+            <li><a class="navbar_business" href="business.html">Business</a></li>
+            <li><a class="navbar_about" href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="main_banner">
+                <p>Transforming outdoor spaces<br>into captivating havens.</p>
+                <a href="#" class="main_banner_btn">Our Story</a>
+            </div>
+        </section>
+        <!-- plant.html -->
+        <section class="body1">
+            <h1 class="body_h1">Find your favorite plant</h1> 
+        
+            <div class="search-container">
+                <input type="text" id="plant-search" placeholder="Enter the plant's name here.">
+                <button type="button" id="search-btn"><img src="img/search.png" alt="Search Icon"></button>
+            </div>
+
+            <script src="js/togglePlants.js"></script>
+            <div class="category">
+                <ul class="item-list">
+                    <li class="item" onclick="togglePlants('collections')">Collections</li>&nbsp&nbsp|
+                    &nbsp&nbsp
+                    <li class="item" onclick="togglePlants('small')">Small</li>&nbsp&nbsp|&nbsp&nbsp 
+                    <li class="item" onclick="togglePlants('medium')">Medium</li>&nbsp&nbsp|&nbsp&nbsp 
+                    <li class="item" onclick="togglePlants('large')">Large</li>&nbsp&nbsp|&nbsp&nbsp 
+                    <li class="item" onclick="togglePlants('huge')">Huge</li>
+                    
+                </ul>
+            </div>
+            
+            <div class="plants">
+                <div class="plant1 collections small">
+                    <img src="./img/1rubber-plant.webp">
+                    <p>Rubber plant</p>
+                    <h4>Small</h4>
+                </div>
+                <div class="plant1 collections small">
+                    <img src="./img/1zanzibar-gem.webp">
+                    <p>Zanzibar gem</p>
+                    <h4>Small</h4>
+                </div>
+                <div class="plant1 collections medium">
+                    <img src="./img/2anthurium-king-of-hearts.webp">
+                    <p>Anthurium king of hearts</p>
+                    <h4>Medium</h4>
+                </div>
+                <div class="plant1 collections medium">
+                    <img src="./img/2silver-evergreen.webp">
+                    <p>Silver evergreen</p>
+                    <h4>Medium</h4>
+                </div>
+                <div class="plant1 collections large">
+                    <img src="./img/3ficus-audrey.webp">
+                    <p>Ficus audrey</p>
+                    <h4>Large</h4>
+                </div>
+                <div class="plant1 collections large">
+                    <img src="./img/3monstera-deliciosa.webp">
+                    <p>Monstera deliciosa</p>
+                    <h4>Large</h4>
+                </div>
+                <div class="plant1 collections huge">
+                    <img src="./img/4fiddle-leaf-fig-tree.webp">
+                    <p>Fiddle leaf fig tree</p>
+                    <h4>Huge</h4>
+                </div>
+                <div class="plant1 collections huge">
+                    <img src="./img/4kentia-palm.webp">
+                    <p>Kentia palm</p>
+                    <h4>Huge</h4>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">7</a>
+                <a href="#">8</a>
+                <a href="#">9</a>
+                <a href="#">&raquo;</a>
+            </div>
+
+        </section>
+        <!-- plant.html -->
+    </main>
+</body>
+<footer>
+    <hr>
+    <div class="footer_up">
+        <div class="footer_contactus">
+            <h3> 
+                Contact Us
+            </h3>
+            <div>
+                Have questions or want to order over the phone?<br>
+                We're here to help. Talk to our Plant Experts.
+            </div>
+            <div>
+                <a href="tel:516-717-6850">
+                (516) 717-6850</a></div>
+            <div>
+                <a href="mailto:bryan1010111@gmail.com">
+                Feel free to Contact Us</a></div>
+        </div>
+        <div class="footer_followus">
+            <h3>
+                Follow Us
+            </h3>
+            <div>
+                Instagram<br>
+                Facebook<br>
+                YouTube<br>
+            </div>
+        </div>
+        <div class="footer_stayrooted">
+            <h3>
+                Stay Rooted with Lucky Shrub
+            </h3>
+            <div>
+                Join the Lucky Shrub family for special offers,<br>
+                new products, expert advice and more.
+            </div>
+            <div class="footer_subscribe">
+                <input type="email" size="40px" class="subscribe_input" pattern=".+@example\.com" size="30" required placeholder="Email address">
+                <button onclick="sub_func()" class="subscribe_btn">Subscribe</button>
+                <script>
+                    function sub_func() {
+                        alert("Thank you for subscribing – here is your coupon : WELCOME50");
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="footer_down">
+        <div>
+            <img src="img/logo-footer.png" height="100px">
+        </div>
+        <div>
+            <p>Copyright(C) 2024 Lucky Shrub.</p>
+        </div>
+    </div>
+</footer>
+</html>
